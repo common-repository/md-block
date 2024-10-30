@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "mehedimi/md-block",
+  "version": "0.1.0",
+  "title": "MD Block",
+  "category": "text",
+  "description": "A Gutenberg Block that allow to write markdown in Block Editor",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "text",
+      "selector": "div"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "md-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
